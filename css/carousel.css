@@ -60,9 +60,9 @@ h1 {
 
 .next {
     left: calc(100% - 50px);
-    background-image: url(../right.svg);
+    background-image: url(./right.svg);
 }
 
 .past {
-    background-image: url(../left.svg);
+    background-image: url(./left.svg);
 }
