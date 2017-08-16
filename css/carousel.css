@@ -1,0 +1,68 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+.carousel {
+    width: 70%;
+    margin: 0 auto;
+    border-radius: 5px;
+    border: 1px solid #E8E8E8;
+    box-shadow: 0 0 50px rgb(242,246,249);
+    position: relative;
+    overflow: hidden;
+}
+
+ .card {
+    width: 100%;    
+    box-sizing: border-box; 
+    padding: 0 40px;
+    position: relative;
+}
+
+.carousel p {
+    text-align: center;
+}
+
+.carousel a {
+    text-decoration: none;
+    text-align: center;
+    color: rgb(170, 61, 61);
+}
+
+.carousel p:last-child {
+    margin-bottom: 30px;
+}
+
+.carousel img {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    border-radius: 50%;
+}
+
+.carousel div p:not(:first-child):not(:last-child){
+    margin-bottom: 0;
+    margin-top: 0;
+    padding-bottom: 0;
+}
+
+.past, .next {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    top: calc(50% - 25px);
+    cursor: pointer;
+}
+
+.next {
+    left: calc(100% - 50px);
+    background-image: url(../right.svg);
+}
+
+.past {
+    background-image: url(../left.svg);
+}
